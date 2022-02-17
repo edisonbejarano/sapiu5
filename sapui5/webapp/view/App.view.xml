@@ -1,0 +1,10 @@
+<mvc:View controllerName="sei.sapui5.controller.App"
+          xmlns="sap.m" 
+          xmlns:mvc="sap.ui.core.mvc">
+  <Button id="_IDGenButton1" text="{i18n>showButtonText}" press=".onShowText" ></Button>
+  <Input id="_IDGenInput1" 
+         value="{/recipient/name}"
+         description="Name : {/recipient/name}"
+         valueLiveUpdate="true"
+         width="60%"></Input>
+</mvc:View>
